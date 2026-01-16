@@ -1,0 +1,12 @@
+# The directory NPM downloads your dependencies sources to.
+/node_modules/
+
+# Build artifacts
+/public/
+
+# macOS artifacts
+.DS_Store
+
+# Screenshots made during the tests
+/screenshots/**/*
+!/screenshots/.gitkeep
