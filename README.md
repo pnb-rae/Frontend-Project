@@ -1,68 +1,83 @@
-UI Practice Challenges
+# UI Practice Challenges
 
-This repository contains a collection of front-end development exercises completed during the Nova Labs Internship.
+> A collection of front-end development exercises completed during the Nova Labs Internship.
 
-All exercises are based on challenges from Frontend Mentor
-.
+All exercises are based on challenges from [Frontend Mentor](https://www.frontendmentor.io).
 
-Getting Started
+---
 
-Fork this repository
+## Getting Started
 
-Enable GitHub Actions for your fork
+### Prerequisites
+- Node.js and npm installed
 
-Find an available challenge in GitHub Issues
+### Workflow
 
-Check out the exercise branch (e.g. qr_code_component)
+1. **Fork this repository**
 
-Download the starter files for the selected challenge and read the instructions carefully
+2. **Enable GitHub Actions** for your fork
 
-Start the development server using:
+3. **Find an available challenge** in GitHub Issues
 
-npm run serve
+4. **Check out the exercise branch**  
+   ```bash
+   git checkout qr_code_component
+   ```
 
+5. **Download the starter files** for the selected challenge and read the instructions carefully
 
-Edit files inside the challenge directory (e.g. challenges/qr_code_component) and place any images inside its images subdirectory
+6. **Start the development server:**
+   ```bash
+   npm run serve
+   ```
 
-Run the Prettier formatter:
+7. **Edit files** inside the challenge directory (e.g., `challenges/qr_code_component`) and place any images inside its `images/` subdirectory
 
-npm run format
+8. **Run the Prettier formatter:**
+   ```bash
+   npm run format
+   ```
 
+9. **Execute tests** and ensure they pass:
+   ```bash
+   npm run test
+   ```
 
-Execute tests and ensure they pass:
+10. **Compare screenshots** generated during testing (located in the `screenshots/` directory) with the expected design
 
-npm run test
+11. **Create a pull request** to the matching branch of the upstream repository
 
+12. **Ensure the pull request passes code review**
 
-Compare the screenshots generated during testing (located in the screenshots directory) with the expected design
+13. **Merge your exercise branch** into your main branch
 
-Create a pull request to the matching branch of the upstream repository
+14. **Update the main index file** (`challenges/index.html`) in the main branch to include a link to the latest challenge solution
 
-Ensure the pull request passes code review
+15. **Repeat steps 3–14** for each new exercise
 
-Merge your exercise branch into your main branch
+> **Tip:** You may also improve the UI of the main `index.html` file
 
-Update the main index file (challenges/index.html) in the main branch to include a link to the latest challenge solution
+## Deploy to GitHub Pages
 
-Repeat steps 3–14 for each new exercise
+1. **Set the gh-pages branch** as the Github Pages source in your repository settings
 
-You may also improve the UI of the main index.html file
+2. **Open your site:**
+   ```
+   https://USERNAME.github.io/ui_practice_challenges/
+   ```
 
-Set the gh-pages branch as the Github Pages source
+---
 
-Open your site at:
+## Project Structure
 
-https://USERNAME.github.io/ui_practice_challenges/
+Each challenge has its own directory inside the `challenges/` folder.
 
-Project Structure
+### Challenge Directory Contents
 
-Each challenge has its own directory inside the challenges folder.
 Every challenge directory contains:
 
-An HTML file
+- **An HTML file** - Main markup
+- **A Tailwind CSS configuration file** (`tailwind.config.js`)
+- **An input CSS file** - Similar to the Tailwind Playground setup
 
-A Tailwind CSS configuration file
-
-An input CSS file (similar to the Tailwind Playground setup)
-
-The public directory is used for output only and can be ignored.
+> **Note:** The `public/` directory is used for output only and can be ignored.
