@@ -48,7 +48,7 @@ Repeat steps 3–14 for each new exercise
 
 You may also improve the UI of the main index.html file
 
-Set the gh-pages branch as the GitHub Pages source
+Set the gh-pages branch as the Gitlab Pages source
 
 Open your site at:
 
