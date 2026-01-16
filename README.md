@@ -19,7 +19,7 @@ Download the starter files for the selected challenge and read the instructions 
 
 Start the development server using:
 
-npm run dev
+npm run serve
 
 
 Edit files inside the challenge directory (e.g. challenges/qr_code_component) and place any images inside its images subdirectory
