@@ -6,7 +6,7 @@ All exercises are based on challenges from [Frontend Mentor](https://www.fronten
 
 ---
 
-## Getting Started
+## Get Strated
 
 ### Prerequisites
 - Node.js and npm installed
